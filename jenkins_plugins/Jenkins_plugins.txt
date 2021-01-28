@@ -1,0 +1,12 @@
+## What is YAML?
+  --> YAML denotes Aint's markup language, It is similar to XML and JSON programming languages and it is quite easily structured to read by the users.
+  --> It is mainly used to provide powerful configuration settings to the web container tools.
+  --> The language is formatted in a single YAML file and this single XAML file can be transferred into any language easily.
+  --> YAML is working with scalars(data types : int, float), sequences (dataformat: List/array), mapping (libraies, dictories)
+## Basic rules of YAML language 
+  --> The tag ends with .yaml
+  --> It is a case senstive
+  --> It does not allow to use tab  
+### what is JCasC>
+  --> JCasC represents Jenkins configurations as a code, It uses YAML formatted language to set up Jenkins configurations and
+       we can create multiple branch pipelines with groovy scripting and the file can be saved as a casc.YAML and push into URL where Jenkins can access it.  
