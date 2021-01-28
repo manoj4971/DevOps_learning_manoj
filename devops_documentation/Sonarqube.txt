@@ -1,0 +1,13 @@
+### What is a Sonarqube?
+  --> It is an automated code review tool to detect bugs and conflicts in your project code.
+  --> It also integrates with your workflow tools like Jenkins, Tomcat to inspect code across your project branches and pull requests.
+## Note:
+   -> The --httpPort no: 9000 for sonarqube integration.
+   -> The sonarqube runs in a data base (eg: microsoft SQL server) 
+### working of sonarqube:
+  1) Initially, after the developer committing code in the GitHub repository, then code is triggered by the Jenkins server
+  2) In Jenkins server checkouts, tests and builds are performed(continuous Integration/CI)  
+  3) Further, sonarqube is integrated into the CI part 
+  4) The output test results from the Jenkins server are analyzed & evaluated by sonarqube scanner 
+  5) Sonarqube server uses the sonarqube interface to send an email notification to the developers
+  6) It uses the sonarlint tool to check the notifications from the sonarqube server.

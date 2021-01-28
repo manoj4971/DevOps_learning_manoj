@@ -1,0 +1,22 @@
+### what is a Hashicrop vault?
+  --> This is an automated secret management tool for securely storing and accessing secrets like authentications or authorizations to a system.
+  --> Vault secures, stores, and gives controlled access to the tokens, passwords, and controls APL keys and to other system settings.
+  --> Vault can be executed through docker-compose, helm..etc.
+## Note:
+  --> The  http port number for vault: 3200 
+### Types of authentications to the users:
+  --> The user or system should prove the proof of identity to a server or client to access the information or data.
+      1) password-based
+      2) token-based
+      3) Bio-metric based
+      4) certificate-based
+      5) multifactor based  
+### Difference between the batch token and service token:
+   -> service token: It is a general vault token where people normally think of, but it creates a child token by varying code number from parent token number,
+                    child token code will be revoked when the token expires. It is heavyweight to track and create the token.
+   -> Batch token: batch token are encrypted with varying dynamic time outs, It  carries only useful information to the vault actions,
+                   So therefore no storage disk is required and the token is extremely lightweight  
+
+ 
+
+   
