@@ -1,0 +1,49 @@
+## Linux-Terminal basic commands
+
+ 
+
+  --> ctrl + Alt + T : To launch the terminal on  linux local host
+
+
+
+  --> pwd : To known the path of the present directory
+
+  
+
+  --> ls -la : To checkout hidden files in the working directory
+
+  
+
+  --> cd / : In order to move to the root directory
+
+  
+
+  --> cd .. : Move back from the present directory
+
+  
+
+  --> mkdir <specify the name of the directory> : To create directory
+
+  
+
+  --> nano: Terminal editor installed in Linux to access files in the current working directory
+
+  
+
+  --> cat command : This is a text editor that only creates the text files, features of this command: display, copy, combine & create text files.
+
+  
+
+  --> mv <document name> <new document name to be moved> : To file from one folder to the other folder
+
+  
+
+  --> lp <filename> : To print files from the printer
+
+  
+
+  Sudo command: This command or program allows the regular user to run the program with security
+
+  
+
+  --> sudo apt-get install <type the name of the software you want to install> : to install the package in the Linux terminal.

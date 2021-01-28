@@ -1,0 +1,122 @@
+### Git & Git-hub: These are the tools mostly used for versioning of the code.
+
+  1) Git: Git is a version control management tool (Local repository) 
+  2) Git-hub: It is a source or code holding platform (Remote repository)
+
+ ## Here let us know about Git overview and basic git commands
+
+   --> Git is a continuous development process, In this work, we are using Git as a distributed version control system
+   --> Git has a local repository, where the repository consists of files (with data, images), history (Commits made in the source code), and also configurations are managed by the Git
+   --> The workflow or stages of Git:
+      1) Working directory-- eg: ~/users/devops_project.
+      2) Staging area-- here we add all modified changes made in the working directory.
+      3) Git Repository-- commits are made to modified changes in the file. 
+      
+ ## Git basic commands for handling folders & file in the projects repository
+
+  --> unzip <downloaded file name> : which unzips the file in Git bash
+
+  --> mv <old file name> <new file name> : Rename old file name with new file
+
+  --> git clone " specify the HTTP URL to clone the project".
+  
+  --> git rm <enter the name you want remove>
+
+  --> rm -rf .git : to delete the git directory.
+  
+  --> subl <file name> : In order to open & edit local repository files through git-bash console commands in sublime editor. 
+
+  Fork : By clicking this button in the Git-hub interface it creates or forks target repository (taken from another Github source) in your GitHub remote repository     
+
+ ## Git basic commands helpfull from the working directory -- staging area.
+
+   --> git config --global user.name "manoj" : To configure your name to Git (Here, user.name is a property you can even switch it to user.email, user.phone number..) 
+
+   --> pwd : To know the present directory or path in git-bash
+
+   --> ls  : checkout the files in the directory
+   
+   --> ls -la : To known all the hidden files in the directory
+   
+   --> cd .. : changes the directory path towards root 
+   
+   --> cd <enter the folder name> : The choosen path will be directed
+   
+   --> git status : This will show you the changes made in the projec
+   
+   --> git init :  Initializing empty repository in the working directory, here entire path flow and changes from a local repository to source repository is stored 
+   
+   --> git add . : To add  modified in the local repository (. -> represents add all changed files to the repository)
+   
+   --> git diff : Find the changes in the working area and staging area
+   
+   --> git diff --staged : To identify changes between the staging area and git repository
+   
+ ## usefull  git commands from the staging area to  git local repository
+ 
+   --> git commit -m " add the useful commits to the changed file" : moving from  staging area to local repository
+   
+   --> git remote add orgin " url of the repository" : To sink local repository with the central or remote repository
+   
+   --> git pull orgin master : To fetch files from the remote repository to the local repository
+   
+   --> git push orgin master : To push data files from local repository to remote repository
+   
+   ## Git commands for the commits information made in the git-bash
+ 
+   --> git log : To known the information of the commits or changes made by the user
+   
+   --> git log --author = "< Branch name> "
+   
+   --> git log --oneline --graph --decorate : (--oneline: prints one line commit massages, --graph: to known the pictorial represntation of branches)
+   
+   --> git log --since= "number days(eg: 4)" : To known the commits from the last 4 days.
+   
+   --> git show <commit-id> : explains the complete history of the file commits and its changes along with data-time
+   
+   
+ ## Branches in Git (In order to create branches under master branch) 
+ 
+   --> git branch < enter new branch name> : To create a new branch under master branch (git branch - represented as a pointer, which creates memory)
+   
+   --> git branch : To look to which branch git local repository files are pointing to.
+   
+   --> git checkout <specify the name of the branch you want to shift> : switching of the branches
+
+   --> git branch -m <old branch name> <new branch name> : To rename branch.
+   
+   --> git branch -d <Branch name> 
+   
+ Note:
+ Master branch files are present in all the sub-branches, but sub-branch files are not present in all the sub-branches until we merge them with those branches.
+ Time to time we should merge sub-branches with the master branch.
+ 
+   --> git merge <specify the name of the branch you want to merge>
+   
+   --> git revert HEAD <enter the file name you need to revert> : Here, we can observe how files are making changes from the staging area to the working directory.
+   
+   --> git reset HEAD~ : In order reback the last commit.
+   
+  Merge VS Rebase :
+  
+    * Drawbacks of Git-merge :
+       when you are merging the sub-branch with master branch, when there are more users in master branch that will pollute your history of the commits made by the developer.
+       It can be resolved by the rebase command
+        
+       --> git rebase <target branch> : Git will take all the changes commited in the sub-branch and keep it top of the master branch.
+   
+ 
+   
+
+   
+  
+  
+ 
+   
+ 
+   
+   
+   
+  
+   
+
