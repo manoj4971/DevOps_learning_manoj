@@ -1,0 +1,40 @@
+
+## Traditional software development methodologies:
+
+  
+
+   1) Traditional waterfall model --> It is structured as a linear sequential model, once's the development and testing have started 
+                                      , then no features or requirements are added in between the project.
+
+                                      advantages:
+                                        -> helpful for small-scale development work.
+                                        -> application deployment and services are provided at a fast rate.
+
+                                      limitation:
+                                        -> not flexible to change the requirements of the project, while running the application.  
+
+  2) Agile model ------------------> It is a continuous iterative process for the development and testing of the application within a lifecycle, 
+                                      this life cycle is divided into sprints, here features can be updated or modified for every sprint till we reach the product goal.
+
+                                      advantages:
+                                        -> requirements can be frequently changed.
+                                        -> agile methodology is based on a continuous incremental appro
+
+## DeVops overview:
+
+  -->The aim of DevOps is to deploy the software development applications and services at a high rate. Working with DevOps combines software development and 
+     IT infrastructure operations which follows agile methodology.
+
+  --> Devops is a continuous iterative process with sprints It looped with {plan -> code -> test -> deploy} 
+                                                                           {plan <- monitor <- operate}  
+
+  --> Devops have followed these four cyclic-steps while developing software applications.
+
+       1) Continous development(plan -> code) : Here, mostly we Git, JIRN tools to access the developer's code
+
+       2) continuous testing (build -> test): Maven, Gradle, ANT tools are used to built and test the code
+
+       3) Continous integration: It automates the process for the continuous builds and tests, even errors are identified quickly and but errors are not fixed by it   
+
+       4) Continous delivery: It is a practice of keeping your codebase ready to deploy at any point of time to the production environment bypassing all
+                              automated tests and builds.                     

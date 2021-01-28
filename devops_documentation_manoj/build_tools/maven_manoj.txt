@@ -1,0 +1,18 @@
+ ### What is a maven?
+
+   -> It is a build management java tool. Therefore, we should install a compatible version of java in your local host to run the maven,
+      It creates a completely automated build life cycle for the developers, developer no need to specify complete build configuration plugins and 
+      structure of build, If a developer wants to make changes in the structure or in the project he should commit in POM.XML (Project object model) file.
+      #Basic goals of maven:
+       1) clean
+       2) package
+       3) install
+       4) test
+       5) build
+### Default folder files in the maven project folder
+   --> src/main/java: This directory contains the source code of the project.
+   --> src/test/java: This directory contains test code. 
+   --> src/resources: This directory contains required plugins and resources to execute the build.
+   --> src/target: here the output distributed jar files are stored.
+   --> POM.XML: It is an important  base directory to the Maven project, this pom.xml file contains required resources and 
+                plugins to build and structure the project any commits and changes regarding the project are made here.

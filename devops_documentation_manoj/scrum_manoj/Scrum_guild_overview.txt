@@ -1,0 +1,116 @@
+## Define scrum 
+
+ The scrum is a lightweight framework, where it follows the cyclic development of the product within a timed sprint
+ to archive reasonable solutions to the complex problems, here we repeat the cyclic until we archive predictable results.
+
+# Basic overview of the scrum process
+
+ 1) initial step: The product owner or stakeholder will order the work with required features in a product backlog
+
+ 2) Second step: Further, the scrum team will assess the work and apply given features as an incremental value during a sprint
+
+ 3) third step: finally, the sprint output results are examined and discussed by both the scrum team and product owner and make adjustments to a new sprint
+
+ This iterative process of the sprint is repeated until we archive predictive results from the given work.
+ 
+ ## scrum theory
+ 
+  1) The scrum theory based on emipiriscm and lean thinking,
+  Emipiriscm: The amount of knowledge is archived through the sense of experience and also based on observed experimental results.
+  Lean thinking: decrease product wastage and focus on quality.
+
+  2) According to the scrum theory during a sprint four events are combined for the inspection and adaptation of the product.
+
+  **The events work on the implementation of three empirical scrum pillars:
+
+   1) Transparency: The predictive analysis process and the work-flow process must be visible for those who are performing the 
+                    work and receiving the work.It enables the inspection. 
+
+   2) inspection: Here, the artifacts archived from  the transparency are examined and frequently inspected to the agreed goals
+                                                                                              to find uncertainties in the work
+
+   3) adaptation: From the product results the deviations in the work are assessed and fixed.
+   
+   ## Scrum Values
+    1) Commintments.
+    2) focus.
+    3) openness
+    4) repeat
+    5) & courage
+    
+    ## scrum team
+
+     The scrum team is a small group (10 or lesser than it) of people who will be focused on a single task.
+     The scrum team is responsible for the valuable and useful increment of product backlog features at every sprint.
+
+      * The three responsible divisions of the scrum team.
+       1) Developers: Create plans for the sprint and the sprint backlog, adaptation of plan to every day towards the sprint goal
+                      check the definition is done
+
+       2) product owner: He is mainly responsible for product backlog management.
+                         Creating and clearly explaining the product backlog items and also the ordering product backlog items for the new sprint.
+
+                         
+       3) Scrum master: leads and trains the scrum teams in coaching self-management and cross-functionality skills.
+                        He is totally responsible for the entire process 
+                        
+      ## Scrum Events
+       All the events are occured in a container (sprint). The sprint is a form of opportunity to inspect and adapat scrum artifacts(artifacts are archived through transpareny)
+       
+      # sprint:
+
+       They are fixed length of one month or less to create consistency against the events during inspection and adaptation
+       In a sprint, all these listed works need to archive
+
+        1) Achieve the product goal 
+
+        2) Including the sprint planning 
+
+        3) Daily Scrum
+
+        4) Sprint review
+
+        5) Sprint retrospective
+
+      # Product goal:
+       sprints enable predictability by ensuring inspection and adaptation of progress towards a product goal
+
+      # Sprint backlog: The sprint goal + the product backlog + the plan for delivering are together referred to as a sprint backlog
+
+      # Daily scrum :
+       
+       The purpose of the daily scrum is to inspect the process towards the sprint goal and adapt sprint backlog as necessary and adjusting 
+       the upcoming planned work.
+       
+      # sprint review:
+
+       The purpose of the sprint review is to inspect the outcome of the sprint and determine future adaptation.
+
+      # scrum artifacts:
+
+       It represents work or value they are designed to maximize transparency of key information.
+
+        Some of them are:
+
+         1) For the product backlog --> product goal 
+
+         2) For the sprint backlog --> sprint goal
+
+         3) for the increment --> definition is done
+
+         
+
+        
+       
+      
+      
+
+   
+   
+                     
+                     
+                     
+                     
+  
+  
+ 

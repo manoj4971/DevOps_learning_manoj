@@ -1,0 +1,15 @@
+ ### what is a war file?
+   --> War file is simply a jar file but only consist of web-related java files like servlets, JSP, HTML,
+       to execute a war file a web server or web container is required (eg: Tomcat)
+### What is a jar file?
+   --> This is a resource that contains java related libraries, classes..etc.
+### what is a servlet?
+   --> It contains class of java which responds for network parasing requests(httpPort = 8080) 
+### jenkins Overview
+   --> Jenkins is an open-source automated software tool to built and test the product within the java-servlet container.
+       It is a server-based application and requires a web-server like eg: Apache Tomcat.
+   ## Jenkins server is used for Continous Integration(CI) and Continuous Delivery(CD).
+    1) working of CI in Jenkins server:
+      --> After, developers committing the code in the GitHub source code repository the Jenkins will webhook the source code then it builds and test the code.
+      --> on a successful build, Jenkins will deploy the source code into the test server and notifies the deployment team. It follows master-slave architecture.
+      --> on build failure, Jenkins will notify errors to the development team.    
